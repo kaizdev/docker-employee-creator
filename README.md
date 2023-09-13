@@ -1,6 +1,10 @@
 # Employee Creator - Full Stack
 
-{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: [Github Workflow Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)}
+-   Ensure you have Docker and Docker compose installed on your machine - [Get Docker](https://docs.docker.com/get-docker/)
+-   Navigate to the root folder of `employee-creator-appp`. You should see the folder for employee-backend and employee-frontend along with the docker-compose.yml file
+-   Spin up the Docker container by running `docker compose up -d`. This will start up the React/Vite front end, the Java/Springboot backend, as well as the mySQL server
+-   Access the front end by going to http://localhost:5173/
+-   Once you're done with the container, you can remove it by running `docker compose down`
 
 ## Demo & Snippets
 
