@@ -1,0 +1,26 @@
+# flyctl launch added from employee-frontend/.gitignore
+# Logs
+employee-frontend/**/logs
+employee-frontend/**/*.log
+employee-frontend/**/npm-debug.log*
+employee-frontend/**/yarn-debug.log*
+employee-frontend/**/yarn-error.log*
+employee-frontend/**/pnpm-debug.log*
+employee-frontend/**/lerna-debug.log*
+
+employee-frontend/**/node_modules
+employee-frontend/**/dist
+employee-frontend/**/dist-ssr
+employee-frontend/**/*.local
+
+# Editor directories and files
+employee-frontend/**/.vscode/*
+!employee-frontend/**/.vscode/extensions.json
+employee-frontend/**/.idea
+employee-frontend/**/.DS_Store
+employee-frontend/**/*.suo
+employee-frontend/**/*.ntvs*
+employee-frontend/**/*.njsproj
+employee-frontend/**/*.sln
+employee-frontend/**/*.sw?
+fly.toml
